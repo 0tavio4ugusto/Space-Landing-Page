@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../images/2560x1600-501259-blur-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  padding-bottom: 20px;
+}
+
+.content {
+  padding: 35px;
+  color: white;
+  background-color: #5c5c9d;
+  max-width: 500px;
+}
+
+.sendButton {
+  padding: 6px;
+  margin: auto;
+  color: #7dbbec;
+  background-color: #5c5c9d;
+  border: 1px solid #7dbbec;
+}
+.sendButton:hover {
+  color: white;
+  background-color: #7dbbec;
+}
+
+.footer {
+  padding: 20px;
+  color: aliceblue;
+}
+
+/*# sourceMappingURL=style.css.map */

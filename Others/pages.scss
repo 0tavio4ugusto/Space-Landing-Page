@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../images/2560x1600-501259-blur-background.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    padding-bottom: 20px;
+}
+
+.content{
+    padding: 35px;
+    color: white;
+    background-color: #5c5c9d;
+    max-width: 500px;
+
+}
+
+.sendButton{
+    padding: 6px;
+    margin: auto;
+    color: $button-color;
+    background-color: #5c5c9d;
+    border: 1px solid $button-color;
+
+    &:hover{
+        color: white;
+        background-color: $button-color;
+
+    }
+}
+
+
+.footer{
+    padding: 20px;
+    color: aliceblue;
+}
